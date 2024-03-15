@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.box {
+    width: 250px;
+    height: 250px;
+    background-color: #f4d896;
+    position: relative;
+    top: 3rem;
+    left:3rem;
+    padding-top: 7rem;
+    padding-left: 1.5rem;
+    font-size: large;
+    font-weight: bolder;
+
+    animation: all 10s linear normal infinite;
+
+}
+
+@keyframes all {
+
+    0% {
+        background: #f4d896;
+        width: 50px;
+        padding: 1rem;
+        border-radius: 10px;
+    }
+
+    25% {
+        background: #ed99a0;
+        width: 100px;
+        padding: 1.5rem;
+        border-radius: 15px;
+    }
+
+    50% {
+        background: #c94f7b;
+        width: 150px;
+        padding: 2rem;
+        border-radius: 20px;
+    }
+
+    75% {
+        background: #824650;
+        width: 200px;
+        padding: 2.5rem;
+        border-radius: 25px;
+    }
+
+    100% {
+        background: #524263;
+        width: 250px;
+        border-radius: 30px;
+    }
+}
